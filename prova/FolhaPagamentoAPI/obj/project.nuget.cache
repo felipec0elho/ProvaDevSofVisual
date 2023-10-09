@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "E3ULzPH1ocKTtU6LpvksOGlNWgwv1XmsWioX+8r6JX+++CxmsKMobeOngT0TZRSs4uoa51ZpgJGyLalPSYILwg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\prova\\prova\\FolhaPagamentoAPI\\FolhaPagamentoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.0\\swashbuckle.aspnetcore.6.1.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.0\\swashbuckle.aspnetcore.swagger.6.1.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.0\\swashbuckle.aspnetcore.swaggergen.6.1.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.0\\swashbuckle.aspnetcore.swaggerui.6.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FolhaPagamentoAPI depende de Microsoft.AspNetCore.OpenApi (>= 6.0.22), mas Microsoft.AspNetCore.OpenApi 6.0.22 não foi encontrado. A melhor correspondência aproximada de Microsoft.AspNetCore.OpenApi 7.0.0 foi resolvida.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FolhaPagamentoAPI depende de Swashbuckle.AspNetCore (>= 6.0.22), mas Swashbuckle.AspNetCore 6.0.22 não foi encontrado. A melhor correspondência aproximada de Swashbuckle.AspNetCore 6.1.0 foi resolvida.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.AspNetCore.OpenApi 7.0.0 não é compatível com net6.0 (.NETCoreApp,Version=v6.0). O pacote Microsoft.AspNetCore.OpenApi 7.0.0 dá suporte a: net7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
